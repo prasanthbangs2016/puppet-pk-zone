@@ -44,7 +44,7 @@
 #
 class motd {
 
-    file { '/etc/update-motd.d':
+    file { '/etc/motd':
         ensure => file,
         #owner  => owner,
         #group  => group,
